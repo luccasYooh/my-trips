@@ -46,7 +46,7 @@ const Map = ({ places }: MapProps) => {
         center={mapView.center}
         zoom={mapView.zoom}
         style={{ height: '100%', width: '100%' }}
-        minZoom={3}
+        minZoom={2.4}
         maxBounds={[
           [-180, 180],
           [180, -180]
