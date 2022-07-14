@@ -16,8 +16,7 @@
     "codegen": "graphql-codegen --config codegen.yml"
   },
   "lint-staged": {
-    "src/**/*": [
-    ]
+    "src/**/*": []
   },
   "dependencies": {
     "@styled-icons/evaicons-outline": "^10.34.0",
@@ -28,6 +27,7 @@
     "next-nprogress": "^1.4.0",
     "next-pwa": "^5.3.1",
     "next-seo": "^5.4.0",
+    "next-sitemap": "^3.1.11",
     "nextjs-progressbar": "^0.0.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -68,7 +68,7 @@
     "jest": "^27.4.7",
     "jest-styled-components": "^7.0.5",
     "lint-staged": "^12.3.3",
-    "plop": "^3.0.5",
+    "plop": "^3.1.1",
     "plugin": "^0.3.3",
     "prettier": "^2.4.1",
     "storybook-addon-next-router": "^3.0.8",
